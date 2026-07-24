@@ -22,11 +22,9 @@ Unlike traditional forecasting tools that only generate predictions, this platfo
 
 ---
 
-# Project Architecture
 
-<p align="center">
-<img src="images/architecture.png" width="900">
-</p>
+
+
 
 ```
                     Dataset
@@ -77,7 +75,6 @@ Developed using **Streamlit** with a responsive interface.
 
 Features include:
 
-- Dataset preview
 - Interactive time-series visualization
 - Model selection
 - Forecast horizon customization
@@ -117,23 +114,7 @@ making the dashboard accessible even for non-technical users.
 
 ---
 
-# Tech Stack
 
-| Category | Technologies |
-|------------|----------------------------|
-| Language | Python |
-| Dashboard | Streamlit |
-| Data Processing | Pandas, NumPy |
-| Statistical Models | Statsmodels |
-| Machine Learning | Scikit-Learn |
-| Deep Learning | TensorFlow, Keras |
-| Forecasting | Prophet |
-| Visualization | Plotly |
-| LLM Integration | Groq API |
-| AI Model | Meta LLaMA 3.3 70B |
-| Environment | Python 3.10 |
-
----
 
 # Machine Learning Pipeline
 
@@ -164,16 +145,7 @@ LLM-Based Insight Generation
 
 ---
 
-# Dashboard Modules
 
-- Data Overview
-- Forecast Visualization
-- Residual Analysis
-- Model Comparison
-- Performance Metrics
-- AI Insights Panel
-
----
 
 # Model Comparison
 
@@ -187,57 +159,6 @@ LLM-Based Insight Generation
 
 The dashboard allows side-by-side comparison of all models under identical preprocessing conditions.
 
----
-
-# Screenshots
-
-## Dashboard
-
-```
-images/dashboard.png
-```
-
-<img src="images/dashboard.png">
-
----
-
-## Forecast Visualization
-
-```
-images/forecast.png
-```
-
-<img src="images/forecast.png">
-
----
-
-## Model Comparison
-
-```
-images/comparison.png
-```
-
-<img src="images/comparison.png">
-
----
-
-## Residual Analysis
-
-```
-images/residual.png
-```
-
-<img src="images/residual.png">
-
----
-
-## AI Insights
-
-```
-images/ai_insights.png
-```
-
-<img src="images/ai_insights.png">
 
 ---
 
@@ -263,39 +184,15 @@ images/ai_insights.png
 - Real-time streaming using Kafka/MQTT
 - Cloud Deployment (AWS/GCP/Azure)
 - Multi-user authentication
-- REST API support
-- Docker containerization
+
 
 ---
 
-# Repository Structure
-
-```
-Time-Series-Forecasting/
-│
-├── app.py
-├── dataset/
-├── models/
-│   ├── arima.py
-│   ├── sarima.py
-│   ├── prophet.py
-│   ├── random_forest.py
-│   └── lstm.py
-│
-├── utils/
-├── images/
-├── notebooks/
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
 ---
-
 # Installation
 
 ```bash
-git clone https://github.com/yourusername/Time-Series-Forecasting.git
+git clone https://github.com/SwapnilBhandarkar/Time-Series-Forecasting.git
 
 cd Time-Series-Forecasting
 
